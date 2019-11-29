@@ -10,7 +10,7 @@ Use the Oficial IDE of STMicroelectronics [STM32CubeIDE](https://www.st.com/en/d
 
 ## List of Projects 📦
 
-* Day1: [Blink Led] (https://github.com/GaboTv/STM32L0-Programming/tree/master/001_Blink)
+* Day1: [Blink Led](https://github.com/GaboTv/STM32L0-Programming/tree/master/001_Blink).
 * Day2:
 
 ## Contributing 🖇️
