@@ -1,6 +1,6 @@
-# Project Title
+# STM32L0-Programming
 
-One Paragraph of project description goes here
+Introducction to STM32L0 Programming
 
 ## Getting Started
 
@@ -72,9 +72,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ivan Gabriel Terceros** - *Initial work* - [PurpleBooth](https://github.com/GaboTv)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/GaboTv/STM32L0-Programming/contributors) who participated in this project.
 
 ## License
 
@@ -82,6 +82,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+100daysofcodechallenge!  
