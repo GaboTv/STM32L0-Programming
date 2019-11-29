@@ -3,7 +3,7 @@
 # Pre-requisites 📋
 
 * [Nucleo-L073RZ](https://www.st.com/en/evaluation-tools/nucleo-l073rz.html).
- ![image](https://www.st.com/bin/ecommerce/api/image.PF261637.en.feature-description-include-personalized-no-cpn-large.jpg)
+<img src="https://www.st.com/bin/ecommerce/api/image.PF261637.en.feature-description-include-personalized-no-cpn-large.jpg" width=300 align=right>
 
 ## Installation 🔧
 
