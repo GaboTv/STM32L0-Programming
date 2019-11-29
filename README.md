@@ -1,4 +1,4 @@
-# STM32L0-Programming
+# STM32L0-Programming for 100 Days
 
 # Pre-requisites 📋
 
