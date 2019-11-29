@@ -1,35 +1,27 @@
 # STM32L0-Programming
 
-# Foobar
+# Pre-requisites 📋
 
 Foobar is a Python library for dealing with word pluralization.
 
-## Installation
+## Installation 🔧
 
 Use the Oficial IDE of STMicroelectronics [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html).
 
-```python
-pip install foobar
-```
+## List of Projects 📦
 
-## Usage
+* Day1: [Blink Led] (https://github.com/GaboTv/STM32L0-Programming/tree/master/001_Blink)
+* Day2:
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
+## Contributing 🖇️
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+## License 📄
+
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Acknowledgments
+## Acknowledgments 🎁
 
 100daysofcodechallenge!  
