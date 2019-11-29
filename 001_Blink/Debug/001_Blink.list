@@ -423,8 +423,8 @@ int main(void)
  8000328:	2120      	movs	r1, #32
  800032a:	0018      	movs	r0, r3
  800032c:	f000 fbc9 	bl	8000ac2 <HAL_GPIO_TogglePin>
-	  HAL_Delay(100);
- 8000330:	2064      	movs	r0, #100	; 0x64
+	  HAL_Delay(200);
+ 8000330:	20c8      	movs	r0, #200	; 0xc8
  8000332:	f000 f959 	bl	80005e8 <HAL_Delay>
 	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
  8000336:	e7f5      	b.n	8000324 <main+0x10>

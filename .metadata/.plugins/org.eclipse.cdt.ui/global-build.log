@@ -1,4 +1,24 @@
-22:11:22 **** Incremental Build of configuration Debug for project 001_Blink ****
+23:45:25 **** Incremental Build of configuration Debug for project 001_Blink ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L073xx -DDEBUG -c -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "001_Blink.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\100daysofcode\STM32\001_Blink\STM32L073RZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_Blink.elf
+ 
+arm-none-eabi-objdump -h -S  001_Blink.elf  > "001_Blink.list"
+arm-none-eabi-objcopy  -O ihex  001_Blink.elf  "001_Blink.hex"
+arm-none-eabi-objcopy  -O binary  001_Blink.elf  "001_Blink.bin"
+arm-none-eabi-size   001_Blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5744	     12	   1572	   7328	   1ca0	001_Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_Blink.bin
+Finished building: 001_Blink.hex
+Finished building: 001_Blink.list
+ 
+ 
+ 
+23:45:29 **** Incremental Build of configuration Debug for project 001_Blink ****
 make -j8 all 
 arm-none-eabi-size   001_Blink.elf 
    text	   data	    bss	    dec	    hex	filename
