@@ -2,7 +2,8 @@
 
 # Pre-requisites 📋
 
-Foobar is a Python library for dealing with word pluralization.
+* [Nucleo-L073RZ](https://www.st.com/en/evaluation-tools/nucleo-l073rz.html)
+![image](https://www.digikey.com/products/en?WT.z_cid=sp_497_0928_buynow&Enterprise=44&lang=en&Vendor=497&mpart=NUCLEO-L073RZ#images-1)
 
 ## Installation 🔧
 
