@@ -1,0 +1,16 @@
+03:19:33 **** Build of configuration Debug for project 002_Serial ****
+make -j8 all 
+arm-none-eabi-gcc -o "002_Serial.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\100daysofcode\STM32\002_Serial\STM32L073RZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002_Serial.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002_Serial.elf
+ 
+arm-none-eabi-size   002_Serial.elf 
+arm-none-eabi-objdump -h -S  002_Serial.elf  > "002_Serial.list"
+   text	   data	    bss	    dec	    hex	filename
+  10868	     96	   1704	  12668	   317c	002_Serial.elf
+Finished building: default.size.stdout
+ 
+Finished building: 002_Serial.list
+ 
+
+03:19:35 Build Finished. 0 errors, 0 warnings. (took 1s.676ms)
+
